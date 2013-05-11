@@ -83,7 +83,6 @@
                         <li><a href="Principal.aspx?info=cons&aptdo=conser">CONSERJES</a></li>
                         <li><a href="Principal.aspx?info=seg&aptdo=aux">AUXILIARES</a></li>
                         <li><a href="Principal.aspx?info=seg&aptdo=cont">CONTROLADORES</a></li>
-                        <li><a href="Principal.aspx?info=seg&aptdo=vig">VIGILANTES</a></li>
                         <li><a href="Principal.aspx?info=cons&aptdo=h24">SERVICIOS 24 HORAS </a></li>
                     </ul>
                 </li>

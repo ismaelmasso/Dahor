@@ -224,14 +224,6 @@
             </tr>
             <tr>
                 <td>
-                    <a href="Principal.aspx?info=seg&aptdo=vig">
-                        <img class="optionimg" src="Imagenes/option_cons_ind_4.jpg" alt="" /></a> <a class="linktitle"
-                            href="Principal.aspx?info=seg&aptdo=vig">Vigilantes</a>
-                    <p class="option">
-                        Servicio de vigilancia con titulación específica para centros.
-                    </p>
-                </td>
-                <td>
                     <a href="Principal.aspx?info=seg&aptdo=h24">
                         <img class="optionimg" src="Imagenes/option_cons_ind_5.jpg" alt="" /></a> <a class="linktitle"
                             href="Principal.aspx?info=seg&aptdo=h24">Servicios 24 horas</a>
