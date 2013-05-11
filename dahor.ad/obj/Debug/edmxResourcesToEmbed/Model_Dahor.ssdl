@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DAHORModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityContainer Name="DAHORModelStoreContainer">
+    <EntitySet Name="CANDIDATURAS" EntityType="DAHORModel.Store.CANDIDATURAS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PRESUPUESTOS" EntityType="DAHORModel.Store.PRESUPUESTOS" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="SOLICITANTES" EntityType="DAHORModel.Store.SOLICITANTES" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPOS_CENTRO" EntityType="DAHORModel.Store.TIPOS_CENTRO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPOS_EMPLEO" EntityType="DAHORModel.Store.TIPOS_EMPLEO" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TIPOS_SERVICIO" EntityType="DAHORModel.Store.TIPOS_SERVICIO" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PRESUPUESTOS_SOLICITANTES" Association="DAHORModel.Store.FK_PRESUPUESTOS_SOLICITANTES">
+      <End Role="SOLICITANTES" EntitySet="SOLICITANTES" />
+      <End Role="PRESUPUESTOS" EntitySet="PRESUPUESTOS" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="CANDIDATURAS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="50" />
+    <Property Name="Fecha_Nacimiento" Type="datetime" Nullable="false" />
+    <Property Name="Nacionalidad" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Telefono" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="EMail" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Puestos" Type="varchar" MaxLength="200" />
+    <Property Name="Experiencia" Type="varchar" MaxLength="3500" />
+    <Property Name="Observaciones" Type="varchar" MaxLength="3500" />
+  </EntityType>
+  <EntityType Name="PRESUPUESTOS">
+    <Key>
+      <PropertyRef Name="Cod_Presupuesto" />
+    </Key>
+    <Property Name="Cod_Presupuesto" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Cod_Solicitante" Type="bigint" Nullable="false" />
+    <Property Name="Empresa" Type="varchar" MaxLength="50" />
+    <Property Name="Tipos_Centro" Type="varchar" MaxLength="500" />
+    <Property Name="Tipos_Servicio" Type="varchar" MaxLength="500" />
+    <Property Name="Consulta" Type="varchar" MaxLength="3500" />
+  </EntityType>
+  <EntityType Name="SOLICITANTES">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Apellidos" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="50" />
+    <Property Name="Poblacion" Type="varchar" MaxLength="50" />
+    <Property Name="CP" Type="varchar" MaxLength="5" />
+    <Property Name="Telefono" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Mail" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="Horario" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TIPOS_CENTRO">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TIPOS_EMPLEO">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Tipo" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TIPOS_SERVICIO">
+    <Key>
+      <PropertyRef Name="Codigo" />
+    </Key>
+    <Property Name="Codigo" Type="smallint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="varchar" Nullable="false" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_PRESUPUESTOS_SOLICITANTES">
+    <End Role="SOLICITANTES" Type="DAHORModel.Store.SOLICITANTES" Multiplicity="1" />
+    <End Role="PRESUPUESTOS" Type="DAHORModel.Store.PRESUPUESTOS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SOLICITANTES">
+        <PropertyRef Name="Codigo" />
+      </Principal>
+      <Dependent Role="PRESUPUESTOS">
+        <PropertyRef Name="Cod_Solicitante" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

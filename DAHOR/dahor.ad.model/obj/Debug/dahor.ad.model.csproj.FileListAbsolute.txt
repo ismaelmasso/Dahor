@@ -1,0 +1,10 @@
+C:\Trabajo\DAHOR\dahor.ad.model\bin\Debug\dahor.ad.model.dll
+C:\Trabajo\DAHOR\dahor.ad.model\bin\Debug\dahor.ad.model.pdb
+C:\Trabajo\DAHOR\dahor.ad.model\obj\Debug\ResolveAssemblyReference.cache
+C:\Trabajo\DAHOR\dahor.ad.model\obj\Debug\dahor.ad.model.dll
+C:\Trabajo\DAHOR\dahor.ad.model\obj\Debug\dahor.ad.model.pdb
+C:\Trabajo\Dahor\Web\Site\dahor.ad.model\bin\Debug\dahor.ad.model.dll
+C:\Trabajo\Dahor\Web\Site\dahor.ad.model\bin\Debug\dahor.ad.model.pdb
+C:\Trabajo\Dahor\Web\Site\dahor.ad.model\obj\Debug\ResolveAssemblyReference.cache
+C:\Trabajo\Dahor\Web\Site\dahor.ad.model\obj\Debug\dahor.ad.model.dll
+C:\Trabajo\Dahor\Web\Site\dahor.ad.model\obj\Debug\dahor.ad.model.pdb

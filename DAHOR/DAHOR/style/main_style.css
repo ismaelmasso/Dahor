@@ -1,0 +1,835 @@
+﻿body
+{
+    background: url(../imagenes/body_background.png) 0 top repeat-x #013e6c;  /* #; e8f3fa*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px;
+    padding:0px;
+}
+
+/*Capa que se superpone durante el postback del envio de presupuestos*/
+#capasuperior
+{
+    z-index:10;
+    background-color:White;
+    top:0;
+    left:0;
+    position:fixed;
+    filter:alpha(opacity=30);
+    opacity: .3;
+    color:Black;
+    visibility:hidden;
+    display:none;
+}
+
+#enviando
+{
+    z-index:15;
+    position:absolute;
+    font: bold 12px  Verdana, Arial, Helvetica, sans-serif;
+    background-color:White;
+    top: 0px;
+    left: 0px;
+    width: 110px;
+    text-align:center;
+    visibility:hidden;
+    display:none;
+}
+
+#enviando table
+{
+    width:100%;
+    border-style:ridge;
+    border-width:1px;
+}
+
+#enviando table tr td
+{
+     text-align:center;
+}
+
+/*Capa del contenido principal*/
+#Principal
+{
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto 0px auto;
+    width: 1024px;
+    z-index:0px;
+}
+
+#head
+{
+    background: url(../imagenes/Baner.png) 0px 0px no-repeat;
+    padding: 0px 0px 0px 0px;
+    margin: 0px auto 0px auto;
+    width: 956px;
+    height: 117px;
+}
+
+#head table
+{
+    width: 945px;
+    height: 114px;
+}
+
+#head table td.headlogo
+{
+    padding: 0px 0px 0px 15px;
+}
+
+#head table td.tdslideshow
+{
+    padding: 0px 0px 0px 30px
+}
+
+
+#head table td.headquickkmenu
+{
+    padding: 0px 0px 0px 0px;
+}
+
+#head table td.headquickkmenu ul
+{
+    margin: 0px;
+    list-style-type: none;
+    width: 134px;
+    height: 110px;
+}
+
+#head table td.headquickkmenu ul li
+{
+    background: url('../imagenes/header_icon.png') left 8px no-repeat;
+    padding: 0px 0px 0px 20px;
+    height: 26px;
+}
+
+#head table td.headquickkmenu ul li a
+{
+    font: bold 11px/30px "Trebuchet MS" ,Arial, Helvetica, sans-serif;
+    color: #0c4858;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+}
+
+#head table td.headquickkmenu ul li a:hover
+{
+    color: #000000;
+}
+
+#principalbody
+{
+    background: url(../imagenes/body_marco.png) center repeat-y;
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 50px 0px 50px;
+}
+
+#error
+{
+    background: url(../imagenes/body_marco.png) center repeat-y;
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 50px 0px 50px;
+}
+
+#error table
+{
+    margin:0px 0px 0px 410px;
+    font: normal 20px Georgia,Trebuchet MS,Arial, Helvetica, sans-serif;
+    color:#0b6987;
+}
+
+#error p
+{
+    margin: 0px 0px 0px 0px;
+    text-align:center;
+    font: normal 20px Georgia,Trebuchet MS,Arial, Helvetica, sans-serif;
+    color:Red;
+}
+
+#error a
+{
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#error a:hover
+{
+    color:#18a4d0;
+}
+
+#headbody 
+{
+    background:url('../imagenes/line_title.gif') 0px 35px repeat-x;
+    width: 919px;
+    height: 45px;
+}
+
+#headbody p.titulo
+{
+    font: normal 28px Arial;
+    color:#000066;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#menu
+{
+    background:url('../imagenes/head.png') center bottom no-repeat;
+    margin: 0px auto 0px 31px;
+    padding: 0px;
+    width: 962px;
+    height: 40px;
+}
+
+/* Estilos de los telefonos y boton de presupuesto fijos para cada pagina*/
+#infofija
+{    
+    background: url(../imagenes/body_marco.png) center repeat-y;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.ocultar
+{    
+   visibility:hidden;
+   display:none;
+}
+
+#infofija table
+{
+    width: 955px;
+    height:35px;
+    margin:0px 0px 0px 40px;
+}
+
+#infofija table tr td.small_button
+{
+    width:50%;
+    vertical-align:bottom; 
+    background:url(../imagenes/presupuestos_button_small.png) 0 bottom no-repeat;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    padding:0px 0px 4px 22px
+}
+
+#infofija table tr td.telefono
+{
+    vertical-align:bottom;    
+    padding:0px 0px 4px 283px;
+    margin:0px;
+    font: italic 13px Myriad Pro Black;
+    color:#3b4cb5;
+}
+
+#infofija table tr td.small_button a
+{
+    text-decoration:none;
+    color:#175ea5;
+}
+
+#infofija table tr td.small_button a:hover
+{
+    color: #8F3102;
+}
+
+#infofija table tr td.small_phone
+{
+    width:50%;
+    background:url(../imagenes/marco_telef_small.png) 253px bottom no-repeat;
+}
+
+#textofijo
+{
+    min-height: 100px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+/* Estilo del pié de página*/
+#footerinfo
+{   
+    margin: 0px;
+    display: block;
+    float: left;    
+    background: url(../imagenes/body_marco.png) 32px 0px repeat-y;
+    width: 995px;
+}
+
+#footerinfo table
+{
+    background:url('../imagenes/footerinfo.png') 0px 0px no-repeat;
+    margin:0px 0px 0px 37px;
+    width: 951px;
+}
+
+#footerinfo table tr td.footlist
+{
+    padding: 0px 0px 0px 145px;
+    margin:0px;
+}
+
+#footerinfo table tr td.copyright
+{    
+    padding:0 0 0 320px;
+}
+
+#footerinfo ul
+{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    height: 20px;
+    width: 655px;
+}
+
+#footerinfo ul li
+{
+    float: left;
+    font: bold 11px/22px Arial, Helvetica, sans-serif;
+    color: #3333ff;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footerinfo ul li a
+{
+    padding: 0px 8px 0px 8px;
+    font: bold 11px/22px Arial, Helvetica, sans-serif;
+    color: #3333ff;
+    text-decoration: none;
+    margin: 0px;
+}
+
+#footerinfo ul li a:hover
+{
+    text-decoration: underline;
+}
+
+#footerinfo rul li a:hover
+{
+    text-decoration: underline;
+}
+
+
+#footerinfo p.copyright
+{
+    margin: 0px;
+    font: normal 11px/22px Arial, Helvetica, sans-serif;
+    width: 280px;
+    color: #970000;
+    background-color: inherit;
+}
+
+/* Contenido del marco */
+#content
+{
+    width: 920px;
+    min-height: 100px;
+}
+
+#content table
+{
+    width: 930px;
+    height: 280px;
+}
+
+#content table tr td
+{
+    background: url(../imagenes/option.png) 0 0 no-repeat;
+    vertical-align: top;
+    width: 308px;
+}
+
+
+#content table tr td.telefonos
+{
+    background: url(../imagenes/marco_telef.png) 15px 0 no-repeat;
+    /*background:none;
+    padding: 10px 0px 0px 0px;*/
+}
+
+#content table tr td.telefonos p
+{
+    margin: 0px 0px 0px 25px;
+    padding: 0px;
+    background:none;
+    font: bold italic 16px Myriad Pro Black;
+    color:#3b4cb5;
+    width: 259px;
+}
+
+#content table tr td.presuponline
+{
+    background: none;
+    padding: 0px;
+    margin: 0px;
+    width: 308px;
+}
+
+#content a.linktitle
+{
+    background: url(../imagenes/option_title.png) no-repeat 5px 1px;
+    color: #8F3102;
+    font: bold 12px Verdana, Arial, Helvetica, sans-serif;
+    height: 18px;
+    margin: 4px 0px 0px 0px;
+    display: block;
+    float: left;
+    padding: 0px 0px 0px 25px;
+    width: 183px;
+    text-decoration: none;
+}
+
+#content a:hover
+{
+    color: #024978;
+}
+
+#content a.presup
+{
+    background: url(../imagenes/presupuestos_button.png) 0 0 no-repeat;
+    height: 70px;
+    width: 177px;
+    padding: 3px 0px 0px 30px;
+    margin: 6px 0px 0px 50px;
+    font: italic 24px Myriad Pro black, Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+#content a.presup:hover
+{
+    background: url(../imagenes/presupuestos_button_hover.png) 0 0 no-repeat;
+    color: #4cd48f;
+}
+
+#content p.option
+{
+    padding: 0px 14px 0px 0px;
+    margin: 0px;
+    font: normal 9px/15px Verdana, Arial, Helvetica, sans-serif;
+    color: #878787;
+    display: block;
+}
+
+#content img.optionimg
+{
+    height: 60px;
+    width: 78px;
+    margin: 6px 9px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    float: left;
+    display: block;
+    border-style:none;
+}
+
+#quienes
+{
+    width: 419px;
+    float: left;
+    margin: 0px 0px 0px 0px;
+    height: 235px;
+}
+
+#quienes h2
+{
+    display: block;
+    font: normal 25px/29px Georgia, Helvetica, sans-serif;
+    color: #404040;
+    background-color: inherit;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+#quienes p.quienesTxt
+{
+    float: left;
+    display: block;
+    width: 411px;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 0px;
+    text-align: justify;
+    height: 195px;
+    padding: 5px 5px 0px 0px;
+}
+
+#service
+{
+    width: 485px;
+    float: left;
+    margin: 0px 0px 0px 10px;
+    height: 235px;
+}
+
+#service h2
+{
+    display: block;
+    font: normal 25px/29px Georgia, Helvetica, sans-serif;
+    color: #404040;
+    background-color: inherit;
+    text-align: justify;
+    margin: 0px;
+    padding: 0px;
+}
+
+#service p.serviceTxt
+{
+    float: left;
+    display: block;
+    width: auto;
+    font-size: 11px;
+    line-height: 18px;
+    padding: 10px 5px 0px 0px;
+    text-align: justify;
+    height: 35px;
+    padding: 5px 5px 0px 0px;
+}
+
+#service ul
+{
+    height: 160px;
+    margin:0px 0px 0px 20px;
+    padding:0px 0px 0px 15px;
+    font-size: 11px;
+    line-height: 18px;
+    display:block;
+}
+
+#service ul li
+{
+    margin-top:4px;
+}
+
+/*Barra de menu principal*/
+#menu_principal
+{
+    background: url(../imagenes/nav_bg.gif) 0px 0px repeat-x;
+    float: left;
+    margin: 0px 0px 0px 3px;
+    padding: 0px;
+    list-style-type: none;
+    height: 24px;
+    width: 955px;
+    position:relative;
+    border-right: #1a5189 solid 1px;
+    top: 0px;
+    left: 0px;
+    /*border-left: #1a5189 solid 1px;*/
+}
+
+#menu_principal li
+{ 
+    margin: 0px;
+    padding: 0px;
+    width: 105px;
+    float: left;
+}
+
+#menu_principal li.last
+{
+    border: none;
+    width: 150px;
+}
+
+#menu_principal li.long
+{
+    width: 163px;
+}
+
+#menu_principal li a
+{    
+    text-align: center;
+    font: bold 11px/24px "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    height: 23px;
+    /*border-left: #1a5189 solid 1px;*/
+    display: block;
+    text-decoration: none;
+    color: #333333;
+}
+
+#menu_principal li a.first_a
+{    
+    border-left: #1a5189 solid 1px;
+}
+
+#menu_principal li a:hover
+{
+    background: url(../imagenes/nav_arrow.gif) center 1px no-repeat;
+}
+
+
+#menu_principal ul.submenu
+{
+    list-style-type: none;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    position:absolute;
+    visibility: hidden;
+    border-bottom: #1a5189 solid 1px;
+    border-right: #1a5189 solid 1px;
+}
+
+#menu_principal ul.submenu li
+{
+    float:none;
+    padding:0px;
+    margin:0px;
+    width:200px;
+    background: url(../imagenes/nav_bg.gif) 0px 0px repeat-x;
+}
+
+
+#menu_principal ul.submenu li a
+{
+    text-align: left;
+    display: block;
+    font: bold 11px/24px "Trebuchet MS" , Arial, Helvetica, sans-serif;
+    color: #333333;
+    text-decoration: none;
+    height: 23px;
+    border-left: #1a5189 solid 1px;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+}
+
+#menu_principal ul.submenu li a:hover
+{
+    background: url(../imagenes/nav_bg_hover.gif) 0px 0px repeat-x;
+}
+
+
+/*** Slideshow **/
+
+#slideshow {
+    position:relative;
+    height:110px;
+    top: 0px;
+    left: -8px;
+    width: 506px;
+}
+
+#slideshow IMG {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+    /*opacity:0.0;*/
+    width: 506px;
+}
+
+#slideshow IMG.active {
+    z-index:10;
+    /*opacity:1.0;*/
+}
+
+#slideshow IMG.last-active {
+    z-index:9;
+}
+
+/*Tooltip de contacto*/
+#tooltip {
+	background-color: #1a5189;
+	border: 1px solid #888888;
+	color: #fff;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-topleft: 0;
+	-moz-border-radius-topright: 7px;
+	max-width: 20em;
+	line-height: 12px;
+}
+
+#tooltip h3 {
+	font-size: 0.9em;
+    margin: 0;
+	padding: 0 3px;
+	text-align: left !important;
+}
+
+#tooltip p {
+	font-size: 0.8em;
+	margin: 5px 0 0 5px;
+	text-align: left;
+}
+
+/*Estilos para el formulario de presupuestos on-line y bolsa de trabajo*/
+.inforequerida
+{
+    padding: 0px 0px 0px 0px;
+}
+
+.validatorCalloutHighlight
+{
+    background-color: #ffcccc;
+}
+
+#formpresup
+{
+	margin-top:15px;
+	padding-bottom:20px;
+}
+
+#formpresup span
+{
+	color:Red;
+}
+
+#formpresup table tr td.tdlabel
+{
+    width: 157px;
+}
+
+#formpresup table tr td.tdinfo
+{
+    width: 154px;
+}
+
+#formpresup table tr td label
+{
+	margin:0px;
+	padding:0px;
+	font:90%/180% "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+
+#formpresup table tr td label.nota
+{
+	margin:0px;
+	padding:0px;
+	font:90%/180% "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+
+#infoenvio
+{
+	font-family: "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;
+}
+
+#infoenvio p.enviook
+{
+    font-size:24px;
+	color:#666666;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+}
+
+#infoenvio table
+{
+    margin:0px 0px 0px 410px;
+}
+
+
+#infoenvio table a.text
+{
+    font-size:22px;
+    color:#0b6987;
+}
+
+#infoenvio table a.text:hover
+{
+    color:#18a4d0;
+}
+
+#formpresup .tbinfo
+{
+	border: 1px solid #6297BC;
+	height:16px;
+	font: 13px/15px "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;	
+}
+
+#formpresup .tbinfodisabled
+{
+	border: 1px solid #6297BC;
+	height:15px;
+	background-color:Gray;
+	cursor:default;
+}
+
+.frmShdwSubmit{
+	border-width:1px;
+	background:#f7f7f7 !important;
+	background:transparent;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.frmShdwSubmit:hover{
+		color:#000000;
+}
+
+.marcadeaguatelefono 
+{	
+    border: 1px solid #6297BC;
+	height:16px;
+	font: 13px/15px "Trebuchet MS", "Lucida Grande", "Bitstream Vera Sans", Arial, Helvetica, sans-serif;	
+	padding:2px 0 0 2px;
+	color:#b8b8b8;
+	background-color:inherit;
+}
+
+/*Texto de experiencia*/
+.tbExpDisable
+{
+    background-color: #ebebe4;
+}
+
+
+/*Estilos para los contenidos*/
+.contenido
+{
+    font-family:Arial
+}
+
+.contenido ul
+{
+    font-size: 13px;
+    color: #4d4d4d;
+    display:block;
+    margin:0px 0px 0px 5px;
+    padding-left:20px;
+}
+
+.intro
+{
+    font-size: 14px;
+    color: rgb(0, 51, 102);
+    margin:0px;
+    padding:0px;
+}
+
+.cabecera
+{
+    font-size: 14px;
+    line-height: 150%;
+    color: #003366;
+    display:block;
+    margin:0px;
+}
+
+.texto
+{
+     font-size: 13px;
+     color: #252525; /*#4d4d4d;*/
+     display:block;
+     margin:0px 0px 0px 0px;
+}
+
+.tablafotos
+{
+    width:850px;
+}
+
+.tablafotos td
+{
+    padding-bottom:10px;
+    text-align:center;
+}

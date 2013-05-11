@@ -1,0 +1,56 @@
+---FTP---
+
+login: dahorftp
+pass: fimazo90
+
+--Cuentas de correo--
+login: solicitud_web
+pass: fimazo90
+
+login: dhornero
+pass: fimazo90
+
+login: informacion
+pass: fimazo90
+
+login: cblanco
+pass: fimazo90
+
+login: contabilidad
+pass: fimazo90
+
+login: jrojas
+pass: fimazo90
+
+login: marioh
+pass: fimazo90
+
+login: publicidad
+pass: fimazo90
+
+login: supervisormadrid
+pass: fimazo90
+
+-------CORREO PIENSASOLUTIONS-------
+mail.dahor.com   A	217.76.150.234
+smtp.dahor.com 	 A	217.76.150.254
+dahor.com  	MX10  	smtp-01.piensasolutions.com
+
+------HOSTING PIENSASOLUTIONS--------
+Nombre:  	ns1.piensasolutions.com   	 
+IP: 		217.76.150.137  	 
+  	  	 
+Nombre: 	ns2.piensasolutions.com  	 
+IP: 		217.76.156.137  
+
+Dominio.es
+
+Nombre:  	 ns3.piensasolutions.com   	 
+IP: 		 217.76.150.138  	 
+  	  	 
+Nombre: 	ns4.piensasolutions.com  	 
+IP: 		217.76.156.138  
+
+------HOSTING DOMITIENDA--------
+Dns primario: dns3.businet-isp.com -> 213.27.202.28
+Dns secundario: dns4.businet-isp.com -> 62.97.88.4

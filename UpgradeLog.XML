@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DAHOR">
+</Property><Property Name="Solution File" Value="D:\Work\DAHOR\DAHOR.sln">
+</Property><Property Name="Date" Value="sábado, 11 de mayo de 2013">
+</Property><Property Name="Time" Value="11:55">
+</Property></Properties><Event ErrorLevel="0" Project="DAHOR" Source="DAHOR\DAHOR.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DAHOR" Source="DAHOR\DAHOR.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.mail.lib" Source="dahor.mail.lib\dahor.mail.lib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.mail.lib" Source="dahor.mail.lib\dahor.mail.lib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.iu.model" Source="dahor.iu.model\dahor.iu.model.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.iu.model" Source="dahor.iu.model\dahor.iu.model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.iu.mail" Source="dahor.iu.mail\dahor.iu.mail.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.iu.mail" Source="dahor.iu.mail\dahor.iu.mail.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.ad.ef" Source="dahor.ad\dahor.ad.ef.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.ad.ef" Source="dahor.ad\dahor.ad.ef.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.ln.model" Source="dahor.ln.model\dahor.ln.model.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.ln.model" Source="dahor.ln.model\dahor.ln.model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.ad.model" Source="dahor.ad.model\dahor.ad.model.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.ad.model" Source="dahor.ad.model\dahor.ad.model.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.ln" Source="dahor.ln\dahor.ln.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.ln" Source="dahor.ln\dahor.ln.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.iu" Source="dahor.iu\dahor.iu.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.iu" Source="dahor.iu\dahor.iu.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.lib.error" Source="dahor.lib.error\dahor.lib.error.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="dahor.lib.error" Source="dahor.lib.error\dahor.lib.error.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="DAHOR" Source="DAHOR\DAHOR.csproj" Description="The Web Application Project DAHOR is configured to use IIS. The Web server 'http://localhost/DAHOR' could not be found.">
+</Event><Event ErrorLevel="0" Project="" Source="DAHOR.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DAHOR.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="dahor.mail.lib" Source="dahor.mail.lib\dahor.mail.lib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.iu.model" Source="dahor.iu.model\dahor.iu.model.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.iu.mail" Source="dahor.iu.mail\dahor.iu.mail.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.ad.ef" Source="dahor.ad\dahor.ad.ef.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.ln.model" Source="dahor.ln.model\dahor.ln.model.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.ad.model" Source="dahor.ad.model\dahor.ad.model.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.ln" Source="dahor.ln\dahor.ln.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.iu" Source="dahor.iu\dahor.iu.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="dahor.lib.error" Source="dahor.lib.error\dahor.lib.error.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

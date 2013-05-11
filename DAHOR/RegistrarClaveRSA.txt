@@ -1,0 +1,3 @@
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis -pef "system.net/mailSettings/smtp" "C:\Trabajo\DAHOR\DAHOR" -prov "RsaProtectedConfigurationProvider"
+
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_regiis -pef "system.net/mailSettings/smtp" "C:\Trabajo\Dahor\Web\Site\DAHOR" -prov "RsaProtectedConfigurationProvider"
