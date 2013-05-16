@@ -1,9 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="limp.ascx.cs" Inherits="DAHOR.controls.limp" %>
-
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="com" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Comunidades</p>
+        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -66,6 +67,7 @@
     <div id="headbody">
         <p class="titulo">
             Colegios</p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -121,6 +123,7 @@
     <div id="headbody">
         <p class="titulo">
             Oficinas / Locales</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -173,6 +176,7 @@
     <div id="headbody">
         <p class="titulo">
             Fin De Obra</p>
+        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -225,6 +229,7 @@
     <div id="headbody">
         <p class="titulo">
             De Altura</p>
+        <uc:facebook ID="Facebook5" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -251,6 +256,7 @@
     <div id="headbody">
         <p class="titulo">
             Fachadas</p>
+        <uc:facebook ID="Facebook6" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -290,6 +296,7 @@
     <div id="headbody">
         <p class="titulo">
             Limpieza</p>
+        <uc:facebook ID="Facebook7" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 200px;">

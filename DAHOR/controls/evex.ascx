@@ -1,8 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="evex.ascx.cs" Inherits="DAHOR.controls.evex" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="ext" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Exposiciones De Exterior</p>
+        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -63,6 +65,7 @@
     <div id="headbody">
         <p class="titulo">
             Exposiciones De Interior</p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -122,6 +125,7 @@
     <div id="headbody">
         <p class="titulo">
             Eventos y Exposiciones</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 100px;">

@@ -1,8 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="serv.ascx.cs" Inherits="DAHOR.controls.serv" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="com" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             A Comunidades</p>
+        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -72,6 +74,7 @@
         <p class="titulo">
             A Centros
         </p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -138,6 +141,7 @@
     <div id="headbody">
         <p class="titulo">
             Servicios Integrales</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 100px;">
@@ -169,6 +173,7 @@
         <p class="titulo">
             Contacto
         </p>
+        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -194,6 +199,7 @@
         <p class="titulo">
             Dónde estamos
         </p>
+        <uc:facebook ID="Facebook5" runat="server"/>
     </div>
     <table width="95%">
         <tr align="center">
@@ -239,6 +245,7 @@
         <p class="titulo">
             Calidad / Metodología
         </p>
+        <uc:facebook ID="Facebook6" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -278,6 +285,7 @@
         <p class="titulo">
             Casos de éxito
         </p>
+        <uc:facebook ID="Facebook7" runat="server"/>
     </div>
     <div class="contenido">
         <p class="cabecera" style="text-align:center">

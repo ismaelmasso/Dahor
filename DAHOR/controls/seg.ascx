@@ -1,8 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="seg.ascx.cs" Inherits="DAHOR.controls.seg" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="vig" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Vigilantes</p>
+        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -67,6 +69,7 @@
     <div id="headbody">
         <p class="titulo">
             Controladores</p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -142,6 +145,7 @@
     <div id="headbody">
         <p class="titulo">
             Auxiliares</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div class="contenido">
         <p class="cabecera">
@@ -193,6 +197,7 @@
     <div id="headbody">
         <p class="titulo">
             Conserjería y Seguridad</p>
+        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 200px;">
@@ -224,9 +229,9 @@
             </tr>
             <tr>
                 <td>
-                    <a href="Principal.aspx?info=seg&aptdo=h24">
+                    <a href="Principal.aspx?info=cons&aptdo=h24">
                         <img class="optionimg" src="Imagenes/option_cons_ind_5.jpg" alt="" /></a> <a class="linktitle"
-                            href="Principal.aspx?info=seg&aptdo=h24">Servicios 24 horas</a>
+                            href="Principal.aspx?info=cons&aptdo=h24">Servicios 24 horas</a>
                     <p class="option">
                         Mayor seguridad y control en servicios 24 horas / 365 días al año.
                     </p>

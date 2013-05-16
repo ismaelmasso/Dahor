@@ -8,6 +8,7 @@
     <div id="headbody">
         <p class="titulo">
             Datos del candidato</p>
+        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
     <div id="formpresup">
         <table style="width: 800px">

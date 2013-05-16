@@ -517,6 +517,7 @@
     border-right: #1a5189 solid 1px;
     top: 0px;
     left: 0px;
+    z-index: 999;
     /*border-left: #1a5189 solid 1px;*/
 }
 
@@ -832,4 +833,11 @@
 {
     padding-bottom:10px;
     text-align:center;
+}
+
+div.fb-div
+{
+    position:relative;
+    top:-25px;
+    left:760px;
 }

@@ -58,6 +58,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="controls\facebookLike.ascx" />
     <Content Include="Index.aspx" />
     <Content Include="Error\ErrorGenerico.html" />
     <Content Include="Web.config" />
@@ -67,6 +68,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Generics.resx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\facebookLike.ascx.cs">
+      <DependentUpon>facebookLike.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\facebookLike.ascx.designer.cs">
+      <DependentUpon>facebookLike.ascx</DependentUpon>
     </Compile>
     <Compile Include="controls\jobs.ascx.cs">
       <DependentUpon>jobs.ascx</DependentUpon>

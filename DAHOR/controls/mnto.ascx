@@ -1,7 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="mnto.ascx.cs" Inherits="DAHOR.controls.mnto" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="mint" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">Mantenimientos Integrales</p>
+        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -62,6 +64,7 @@
         <p class="titulo">
             Servicio 24 Horas De Mantenimiento
         </p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -100,6 +103,7 @@
     <div id="headbody">
         <p class="titulo">
             Mantenimiento y Reformas</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 100px;">

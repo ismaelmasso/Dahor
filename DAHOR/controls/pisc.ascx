@@ -1,8 +1,10 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="pisc.ascx.cs" Inherits="DAHOR.controls.pisc" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="soc" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Socorristas</p>
+        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -55,6 +57,7 @@
     <div id="headbody">
         <p class="titulo">
             Personal De Piscina</p>
+        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro">
@@ -107,6 +110,7 @@
     <div id="headbody">
         <p class="titulo">
             Monitores</p>
+        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
     <div class="contenido">
         <img src="imagenes/pisc_monit_1.jpg" style="float:left; margin: 6px 10px 0px 0px;" />
@@ -153,6 +157,7 @@
         <p class="titulo">
             Mantenimientos / Averías
         </p>
+        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
     <div class="contenido">
         <p class="cabecera"><b>Mantenimiento Inicial</b></p>
@@ -210,6 +215,7 @@
     <div id="headbody">
         <p class="titulo">
             Spas / Termas</p>
+        <uc:facebook ID="Facebook5" runat="server"/>
     </div>
     <div class="contenido">
         <p class="intro"><b>GRUPO DAHOR</b>, gestiona centros deportivos, centros de salud y Spas.</p>
@@ -249,6 +255,7 @@
     <div id="headbody">
         <p class="titulo">
             Piscinas</p>
+        <uc:facebook ID="Facebook6" runat="server"/>
     </div>
     <div id="content">
         <table style="height: 200px;">
