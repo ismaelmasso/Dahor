@@ -8,8 +8,8 @@
     <div id="headbody">
         <p class="titulo">
             Presupuestos on-line</p>
-        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook1" runat="server"/>
     <div id="formpresup">
         <table>
             <tr>

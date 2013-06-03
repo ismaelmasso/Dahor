@@ -838,6 +838,5 @@
 div.fb-div
 {
     position:relative;
-    top:-25px;
-    left:760px;
+    margin-bottom: 10px;
 }

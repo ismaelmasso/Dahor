@@ -3,8 +3,8 @@
 <asp:Panel ID="mint" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">Mantenimientos Integrales</p>
-        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
+        <uc:facebook runat="server" ID="Facebook1"/>
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b>, realiza mantenimientos y reformas en las distintas áreas:
@@ -64,8 +64,8 @@
         <p class="titulo">
             Servicio 24 Horas De Mantenimiento
         </p>
-        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
+        <uc:facebook ID="Facebook2" runat="server"/>
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b>, pone al alcance de sus clientes más exigentes un servicio exclusivo y de calidad, para cualquier tipo de intervención que haya que realizar "Servicio 24 Horas de mantenimientos".
@@ -103,8 +103,8 @@
     <div id="headbody">
         <p class="titulo">
             Mantenimiento y Reformas</p>
-        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
+        <uc:facebook ID="Facebook3" runat="server"/>
     <div id="content">
         <table style="height: 100px;">
             <tr>

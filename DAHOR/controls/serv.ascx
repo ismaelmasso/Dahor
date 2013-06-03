@@ -4,8 +4,8 @@
     <div id="headbody">
         <p class="titulo">
             A Comunidades</p>
-        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook1" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta el mejor Servicio Integral para Comunidades y Urbanizaciones.
@@ -74,8 +74,8 @@
         <p class="titulo">
             A Centros
         </p>
-        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook2" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta el mejor Servicio Integral para sus instalaciones. Esta
@@ -141,8 +141,8 @@
     <div id="headbody">
         <p class="titulo">
             Servicios Integrales</p>
-        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook3" runat="server" />
     <div id="content">
         <table style="height: 100px;">
             <tr>
@@ -173,8 +173,8 @@
         <p class="titulo">
             Contacto
         </p>
-        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook4" runat="server" />
     <div class="contenido">
         <p class="intro">
             Contacta con nosotros, y te facilitaremos la información que precises, sin compromiso
@@ -183,10 +183,10 @@
     <br />
     <div class="contenido">
         <p class="cabecera">
-            <b>Teléfono Central: </b> 913 92 33 47
+            <b>Teléfono Central: </b>913 92 33 47
         </p>
         <p class="cabecera">
-            <b>Teléfono Central 24H: </b> 616 60 32 58
+            <b>Teléfono Central 24H: </b>616 60 32 58
         </p>
         <p class="cabecera">
             <b>Mail: </b><a href="mailto:informacion@dahor.com">informacion@dahor.com</href>
@@ -199,8 +199,8 @@
         <p class="titulo">
             Dónde estamos
         </p>
-        <uc:facebook ID="Facebook5" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook5" runat="server" />
     <table width="95%">
         <tr align="center">
             <td>
@@ -209,10 +209,10 @@
                         <b>Delegación Madrid</b>
                     </p>
                     <p class="texto">
-                        Av. Manoteras Nº8 Esc. 4  2ºD<br />
+                        Av. Manoteras Nº8 Esc. 4 2ºD<br />
                         28050 Madrid<br />
                     </p>
-                </div>  
+                </div>
             </td>
             <td>
                 <div class="contenido">
@@ -221,7 +221,8 @@
                     </p>
                     <p class="texto">
                         C/ Atenas, 67<br />
-                        45003 Toledo <br />
+                        45003 Toledo
+                        <br />
                     </p>
                 </div>
             </td>
@@ -231,7 +232,7 @@
                         <b>Delegación Valencia</b>
                     </p>
                     <p class="texto">
-                        Plaza Joan Miró, 43  1º Izq.<br />
+                        Plaza Joan Miró, 43 1º Izq.<br />
                         46017 Valencia<br />
                     </p>
                 </div>
@@ -245,19 +246,21 @@
         <p class="titulo">
             Calidad / Metodología
         </p>
-        <uc:facebook ID="Facebook6" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook6" runat="server" />
     <div class="contenido">
         <p class="intro">
-            <b>DAHOR</b> cumple en todos sus clientes con una metodología basada en la clara y transparente información, para 
-            ofrecer la mayor calidad a sus servicios.<br /><br />
-            Los empleados de <b>DAHOR</b> son profesionales cualificados y con experiencia, para dar la máxima calidad en el trabajo, detalles y acabados.
+            <b>DAHOR</b> cumple en todos sus clientes con una metodología basada en la clara
+            y transparente información, para ofrecer la mayor calidad a sus servicios.<br />
+            <br />
+            Los empleados de <b>DAHOR</b> son profesionales cualificados y con experiencia,
+            para dar la máxima calidad en el trabajo, detalles y acabados.
         </p>
     </div>
     <br />
     <div class="contenido">
         <p class="cabecera">
-           <b> El compromiso de DAHOR hacia sus clientes</b>
+            <b>El compromiso de DAHOR hacia sus clientes</b>
         </p>
         <p class="texto">
             Identificación inicial de las necesides.<br />
@@ -275,7 +278,8 @@
     <br />
     <div class="contenido">
         <p class="cabecera">
-            En definitiva,  <i>"<b>DAHOR</b> esta pensado por y para sus clientes.", "El mejor aval de <b>DAHOR</b> son sus propios clientes."</i>
+            En definitiva, <i>"<b>DAHOR</b> esta pensado por y para sus clientes.", "El mejor aval
+                de <b>DAHOR</b> son sus propios clientes."</i>
         </p>
     </div>
     <br />
@@ -285,10 +289,10 @@
         <p class="titulo">
             Casos de éxito
         </p>
-        <uc:facebook ID="Facebook7" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook7" runat="server" />
     <div class="contenido">
-        <p class="cabecera" style="text-align:center">
+        <p class="cabecera" style="text-align: center">
             <i>Disponible próximamente</i>
         </p>
     </div>

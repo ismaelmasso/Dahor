@@ -10,8 +10,8 @@
 
     <div id="headbody">
         <p class="titulo">Servicios</p>
-        <uc:facebook ID="Facebook1" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook1" runat="server"/>
     <div id="content">
         <table>
             <tr>

@@ -4,8 +4,8 @@
     <div id="headbody">
         <p class="titulo">
             Comunidades</p>
-        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
+    <uc:facebook runat="server" ID="Facebook1" />
     <div class="contenido">
         <p class="intro">
             La limpieza de los hogares de cada uno de nuestros clientes, es para <b>GRUPO DAHOR</b>,
@@ -24,7 +24,7 @@
             Limpieza de Ascensores, puertas metálicas, railes.<br />
             Limpieza accesos e interiores de garajes y trasteros.<br />
             Gratis en todos los presupuestos:<br />
-        </p>            
+        </p>
         <ul>
             <li>Limpieza de garajes con maquinaria y personal cualificado.</li>
             <li>Abrillantado de portales.</li>
@@ -47,7 +47,7 @@
     </div>
     <br />
     <br />
-    <div class="contenido" style="margin-top:10px;">
+    <div class="contenido" style="margin-top: 10px;">
         <img src="imagenes/lim_com_2.jpg" style="float: left; margin: 0px 10px 0px 0px;" />
         <p class="cabecera">
             <b>Limpiezas Especiales a Comunidades</b></p>
@@ -67,25 +67,26 @@
     <div id="headbody">
         <p class="titulo">
             Colegios</p>
-        <uc:facebook ID="Facebook2" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook2" runat="server" />
     <div class="contenido">
         <p class="intro">
-            Limpieza, Desinfectación, Desratización, etc… son servicios que incluimos en las Limpiezas de Colegios, Institutos, Aulas, etc...
+            Limpieza, Desinfectación, Desratización, etc… son servicios que incluimos en las
+            Limpiezas de Colegios, Institutos, Aulas, etc...
         </p>
-    </div> 
+    </div>
     <br />
-    <img src="imagenes/colegios.jpg" style="float:left; margin-right:10px; height:310px;" />
+    <img src="imagenes/colegios.jpg" style="float: left; margin-right: 10px; height: 310px;" />
     <div class="contenido">
         <p class="cabecera">
             <b>Detalle de los Servicios de Limpieza</b>
         </p>
         <p class="texto">
-           Limpieza de Entradas, Hall.<br />
-           Limpieza de Comedores, Zonas Comunes, Pistas deportivas, Piscinas, Vestuarios, Aseos.<br />
-           Limpieza de Alulas y Salas (suelos y paredes, cristales, espejos)<br />
-           Limpieza de Mobiliario, Equipos informáticos, etc...<br />
-           Recogida diaria de basuras.
+            Limpieza de Entradas, Hall.<br />
+            Limpieza de Comedores, Zonas Comunes, Pistas deportivas, Piscinas, Vestuarios, Aseos.<br />
+            Limpieza de Alulas y Salas (suelos y paredes, cristales, espejos)<br />
+            Limpieza de Mobiliario, Equipos informáticos, etc...<br />
+            Recogida diaria de basuras.
         </p>
     </div>
     <br />
@@ -94,12 +95,12 @@
             <b>Gestión a Centros</b>
         </p>
         <p class="texto">
-           Planning / Cuadrante de limpieza en todos los servicios.<br />
-           Revisiones semanales de Limpieza.<br />
-           Supervisores especializados en productos y procedimientos de Limpieza.<br />
-           Profesionales con experiencia y la mejor dedicación.<br />
-           Todos los productos y herramientas de Limpieza incluidos.<br />
-           Comunicados Internos a las Comunidades preavisando de Limpieza de Garajes y Abrillantados.
+            Planning / Cuadrante de limpieza en todos los servicios.<br />
+            Revisiones semanales de Limpieza.<br />
+            Supervisores especializados en productos y procedimientos de Limpieza.<br />
+            Profesionales con experiencia y la mejor dedicación.<br />
+            Todos los productos y herramientas de Limpieza incluidos.<br />
+            Comunicados Internos a las Comunidades preavisando de Limpieza de Garajes y Abrillantados.
         </p>
     </div>
     <br />
@@ -115,16 +116,17 @@
     <br />
     <div class="contenido">
         <p class="intro">
-            La limpieza en las aulas, es una obligación diaria que DAHOR planifica en todos sus centros.
+            La limpieza en las aulas, es una obligación diaria que DAHOR planifica en todos
+            sus centros.
         </p>
-    </div> 
+    </div>
 </asp:Panel>
 <asp:Panel ID="loc" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Oficinas / Locales</p>
-        <uc:facebook ID="Facebook3" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook3" runat="server" />
     <div class="contenido">
         <p class="intro">
             Que nuestros clientes cuenten con la máxima garantía de limpieza y desinfección
@@ -142,33 +144,39 @@
         <table class="tablafotos">
             <tr>
                 <td>
-                    <img src="imagenes/oficinas.jpg" width="180px" height="120px"/>
-                    <p class="texto">Edificios de Oficina y Despachos</p>
+                    <img src="imagenes/oficinas.jpg" width="180px" height="120px" />
+                    <p class="texto">
+                        Edificios de Oficina y Despachos</p>
                 </td>
                 <td>
-                    <img src="imagenes/centro_negocios.jpg" width="180px" height="120px"/>
-                    <p class="texto">Centros de Negocios</p>
+                    <img src="imagenes/centro_negocios.jpg" width="180px" height="120px" />
+                    <p class="texto">
+                        Centros de Negocios</p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="imagenes/establecimientos.jpg" width="180px" height="120px"/>
-                    <p class="texto">Establecimientos</p>
+                    <img src="imagenes/establecimientos.jpg" width="180px" height="120px" />
+                    <p class="texto">
+                        Establecimientos</p>
                 </td>
                 <td>
-                    <img src="imagenes/almacenes.jpg" width="180px" height="120px"/>
-                    <p class="texto">Almacenes </p>
+                    <img src="imagenes/almacenes.jpg" width="180px" height="120px" />
+                    <p class="texto">
+                        Almacenes
+                    </p>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <img src="imagenes/nave_industrial.jpg" width="180px" height="120px"/>
-                    <p class="texto">Naves</p>
+                    <img src="imagenes/nave_industrial.jpg" width="180px" height="120px" />
+                    <p class="texto">
+                        Naves</p>
                 </td>
-                <td >
+                <td>
                 </td>
             </tr>
-        </table>        
+        </table>
     </div>
     <br />
 </asp:Panel>
@@ -176,27 +184,30 @@
     <div id="headbody">
         <p class="titulo">
             Fin De Obra</p>
-        <uc:facebook ID="Facebook4" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook4" runat="server" />
     <div class="contenido">
         <p class="intro">
             Constructoras, Promotoras y particulares, cuentan ya con un inmejorable servicio
             de Limpieza de Obra:
         </p>
         <br />
-        <table class="tablafotos" style="width:700px; margin-left:85px">
+        <table class="tablafotos" style="width: 700px; margin-left: 85px">
             <tr>
                 <td>
-                    <img src="imagenes/fin_obra.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza Fin de Obra.</p>
+                    <img src="imagenes/fin_obra.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza Fin de Obra.</p>
                 </td>
                 <td>
-                    <img src="imagenes/limp_fob_1.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza de Repasos.</p>
+                    <img src="imagenes/limp_fob_1.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza de Repasos.</p>
                 </td>
                 <td>
-                    <img src="imagenes/entrega.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza de Entrega.</p>
+                    <img src="imagenes/entrega.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza de Entrega.</p>
                 </td>
             </tr>
         </table>
@@ -229,8 +240,8 @@
     <div id="headbody">
         <p class="titulo">
             De Altura</p>
-        <uc:facebook ID="Facebook5" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook5" runat="server" />
     <div class="contenido">
         <p class="intro">
             Servicio especial a Edificios, Oficinas y Comunidades de Propietarios. Limpieza
@@ -241,13 +252,19 @@
             de limpieza e imagen en sus edificios.
         </p>
         <br />
-        <table style="margin-left:300px">
+        <table style="margin-left: 300px">
             <tr>
-                <td><img src="imagenes/option_limp_altura_1.jpg" width="130px" height="130px"/></td>
-                <td rowspan="2"><img src="imagenes/option_limp_altura_2.jpg" height="260px"/></td>
+                <td>
+                    <img src="imagenes/option_limp_altura_1.jpg" width="130px" height="130px" />
+                </td>
+                <td rowspan="2">
+                    <img src="imagenes/option_limp_altura_2.jpg" height="260px" />
+                </td>
             </tr>
             <tr>
-                <td><img src="imagenes/option_limp_altura_3.jpg" width="130px" height="130px"/></td>
+                <td>
+                    <img src="imagenes/option_limp_altura_3.jpg" width="130px" height="130px" />
+                </td>
             </tr>
         </table>
     </div>
@@ -256,29 +273,34 @@
     <div id="headbody">
         <p class="titulo">
             Fachadas</p>
-        <uc:facebook ID="Facebook6" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook6" runat="server" />
     <div class="contenido">
         <p class="intro">
-            Si Necesita Limpiar su Fachada, de Graffitis, Pintadas, Erosión o simplemente por deterioro del paso de los años,  consulte a nuestros técnicos los distintos procedimientos industriales para recuperar su Fachada.
+            Si Necesita Limpiar su Fachada, de Graffitis, Pintadas, Erosión o simplemente por
+            deterioro del paso de los años, consulte a nuestros técnicos los distintos procedimientos
+            industriales para recuperar su Fachada.
         </p>
         <br />
-        <table id="tablafotos" style="width:700px; margin-left:120px">
+        <table id="tablafotos" style="width: 700px; margin-left: 120px">
             <tr>
                 <td>
-                    <img src="imagenes/fachada_1.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza Fin de Obra.</p>
+                    <img src="imagenes/fachada_1.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza Fin de Obra.</p>
                 </td>
                 <td>
-                    <img src="imagenes/fachada_2.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza de Repasos.</p>
+                    <img src="imagenes/fachada_2.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza de Repasos.</p>
                 </td>
                 <td>
-                    <img src="imagenes/fachada_3.jpg" width="130px" height="130px"/>
-                    <p class="texto">Limpieza de Entrega.</p>
+                    <img src="imagenes/fachada_3.jpg" width="130px" height="130px" />
+                    <p class="texto">
+                        Limpieza de Entrega.</p>
                 </td>
             </tr>
-        </table>      
+        </table>
     </div>
     <br />
     <div class="contenido">
@@ -296,8 +318,8 @@
     <div id="headbody">
         <p class="titulo">
             Limpieza</p>
-        <uc:facebook ID="Facebook7" runat="server"/>
     </div>
+    <uc:facebook ID="Facebook7" runat="server" />
     <div id="content">
         <table style="height: 200px;">
             <tr>

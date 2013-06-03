@@ -4,8 +4,8 @@
     <div id="headbody">
         <p class="titulo">
             Conserjerías</p>
-        <uc:facebook runat="server" ID="fbconser"/>
     </div>
+    <uc:facebook runat="server" ID="fbconser" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta con el mejor servicio de conserjería a la medida de nuestros
@@ -88,8 +88,8 @@
     <div id="headbody">
         <p class="titulo">
             Servicios 24 horas</p>
-        <uc:facebook runat="server" ID="Facebook1"/>
     </div>
+    <uc:facebook runat="server" ID="Facebook1" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta como servicio estrella, Los servicios de 24 Horas 365
@@ -99,14 +99,14 @@
             <br />
             <img src="imagenes/cons_h24_1.jpg" style="float: left; margin: 0px 5px 0px 0px" />
             Esta modalidad de servicio se encuentra disponible en:<br />
-       </p>
-       <ul style="padding-left:170px; font-size:14px;">
-        <li>Conserjes</li>
-        <li>Controladores</li>
-        <li>Vigilantes.</li>
-       </ul>
-       <br />
-       <p class="intro">
+        </p>
+        <ul style="padding-left: 170px; font-size: 14px;">
+            <li>Conserjes</li>
+            <li>Controladores</li>
+            <li>Vigilantes.</li>
+        </ul>
+        <br />
+        <p class="intro">
             Lejos de ser o parecer una modalidad económicamente elevada, DAHOR cuenta con importantes
             descuentos para cada uno de los servicios, haciendo de este servicio el más rentable
             (Coste / Hora).<br />
