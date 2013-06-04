@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="serv.ascx.cs" Inherits="DAHOR.controls.serv" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="com" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             A Comunidades</p>
     </div>
-    <uc:facebook ID="Facebook1" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta el mejor Servicio Integral para Comunidades y Urbanizaciones.
@@ -75,7 +73,6 @@
             A Centros
         </p>
     </div>
-    <uc:facebook ID="Facebook2" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta el mejor Servicio Integral para sus instalaciones. Esta
@@ -142,7 +139,6 @@
         <p class="titulo">
             Servicios Integrales</p>
     </div>
-    <uc:facebook ID="Facebook3" runat="server" />
     <div id="content">
         <table style="height: 100px;">
             <tr>
@@ -174,7 +170,6 @@
             Contacto
         </p>
     </div>
-    <uc:facebook ID="Facebook4" runat="server" />
     <div class="contenido">
         <p class="intro">
             Contacta con nosotros, y te facilitaremos la información que precises, sin compromiso
@@ -200,7 +195,6 @@
             Dónde estamos
         </p>
     </div>
-    <uc:facebook ID="Facebook5" runat="server" />
     <table width="95%">
         <tr align="center">
             <td>
@@ -247,7 +241,6 @@
             Calidad / Metodología
         </p>
     </div>
-    <uc:facebook ID="Facebook6" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>DAHOR</b> cumple en todos sus clientes con una metodología basada en la clara
@@ -290,7 +283,6 @@
             Casos de éxito
         </p>
     </div>
-    <uc:facebook ID="Facebook7" runat="server" />
     <div class="contenido">
         <p class="cabecera" style="text-align: center">
             <i>Disponible próximamente</i>

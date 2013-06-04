@@ -22,15 +22,6 @@ namespace DAHOR.controls {
         protected global::System.Web.UI.WebControls.Panel conser;
         
         /// <summary>
-        /// fbconser control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike fbconser;
-        
-        /// <summary>
         /// h24 control.
         /// </summary>
         /// <remarks>
@@ -38,14 +29,5 @@ namespace DAHOR.controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel h24;
-        
-        /// <summary>
-        /// Facebook1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook1;
     }
 }

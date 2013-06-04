@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="evex.ascx.cs" Inherits="DAHOR.controls.evex" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="ext" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Exposiciones De Exterior</p>
     </div>
-    <uc:facebook runat="server" ID="Facebook1" />
     <div class="contenido">
         <p class="intro">
             El Departamento de Exposiciones y Eventos de DAHOR gestiona de inicio a fin cada
@@ -70,7 +68,6 @@
         <p class="titulo">
             Exposiciones De Interior</p>
     </div>
-    <uc:facebook ID="Facebook2" runat="server" />
     <div class="contenido">
         <p class="intro">
             Gestión Integral para las Exposiciones y Galerías de Interior.
@@ -132,7 +129,6 @@
         <p class="titulo">
             Eventos y Exposiciones</p>
     </div>
-    <uc:facebook ID="Facebook3" runat="server" />
     <div id="content">
         <table style="height: 100px;">
             <tr>

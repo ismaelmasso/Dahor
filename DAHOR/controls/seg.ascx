@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="seg.ascx.cs" Inherits="DAHOR.controls.seg" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="vig" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Vigilantes</p>
     </div>
-    <uc:facebook ID="Facebook1" runat="server"/>
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta con un excelente servicio de Vigilantes (con o sin licencia)
@@ -70,7 +68,6 @@
         <p class="titulo">
             Controladores</p>
     </div>
-        <uc:facebook ID="Facebook2" runat="server"/>
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> controla y asegura los servicios más exigentes con su servicio
@@ -146,7 +143,6 @@
         <p class="titulo">
             Auxiliares</p>
     </div>
-        <uc:facebook ID="Facebook3" runat="server"/>
     <div class="contenido">
         <p class="cabecera">
             <b>Supervisión y control de las instalaciones</b></p>
@@ -198,7 +194,6 @@
         <p class="titulo">
             Conserjería y Seguridad</p>
     </div>
-        <uc:facebook ID="Facebook4" runat="server"/>
     <div id="content">
         <table style="height: 200px;">
             <tr>

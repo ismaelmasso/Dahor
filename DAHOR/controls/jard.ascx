@@ -1,10 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="jard.ascx.cs" Inherits="DAHOR.controls.jard" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="mjar" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">Mantenimiento De Jardines</p>
     </div>
-    <uc:facebook runat="server" ID="Facebook1"/>
     <div class="contenido">
         <p class="cabecera">
             <b>Mantenimiento De Jardines</b>
@@ -66,7 +64,6 @@
         <p class="titulo">
             Jardinería</p>
     </div>
-    <uc:facebook ID="Facebook2" runat="server"/>
     <div id="content">
         <table style="height: 100px;">
             <tr>

@@ -1,7 +1,5 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Index"
     MasterPageFile="~/Master/base_page.master" Codebehind="Index.aspx.cs" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
-
 <asp:Content ID="cntIndex" ContentPlaceHolderID="cphBody" runat="server">
 
     <script type="text/javascript" language="javascript">
@@ -11,7 +9,6 @@
     <div id="headbody">
         <p class="titulo">Servicios</p>
     </div>
-    <uc:facebook ID="Facebook1" runat="server"/>
     <div id="content">
         <table>
             <tr>

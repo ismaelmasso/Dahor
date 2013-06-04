@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="cons.ascx.cs" Inherits="DAHOR.controls.cons" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="conser" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Conserjerías</p>
     </div>
-    <uc:facebook runat="server" ID="fbconser" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta con el mejor servicio de conserjería a la medida de nuestros
@@ -89,7 +87,6 @@
         <p class="titulo">
             Servicios 24 horas</p>
     </div>
-    <uc:facebook runat="server" ID="Facebook1" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> cuenta como servicio estrella, Los servicios de 24 Horas 365

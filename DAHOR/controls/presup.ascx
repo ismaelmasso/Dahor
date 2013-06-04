@@ -1,6 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="presup.ascx.cs" Inherits="DAHOR.controls.presup" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="ind" runat="server" Visible="false">
     <form id="form1" runat="server" onsubmit="mostrarEnviando()">
     <asp:ScriptManager ID="ScriptManagerMain" runat="server" AllowCustomErrorsRedirect="true">
@@ -9,7 +8,6 @@
         <p class="titulo">
             Presupuestos on-line</p>
     </div>
-    <uc:facebook ID="Facebook1" runat="server"/>
     <div id="formpresup">
         <table>
             <tr>

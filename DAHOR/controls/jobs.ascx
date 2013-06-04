@@ -1,6 +1,5 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="jobs.ascx.cs" Inherits="DAHOR.controls.jobs" %>
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="ind" runat="server" Visible="false">
     <form id="form1" runat="server" onsubmit="mostrarEnviando()">
     <asp:ScriptManager ID="ScriptManagerMain" runat="server" AllowCustomErrorsRedirect="true">
@@ -9,7 +8,6 @@
         <p class="titulo">
             Datos del candidato</p>
     </div>
-        <uc:facebook runat="server" ID="Facebook1"/>
     <div id="formpresup">
         <table style="width: 800px">
             <tr>

@@ -314,9 +314,10 @@
 {
     margin: 0px;
     font: normal 11px/22px Arial, Helvetica, sans-serif;
-    width: 280px;
+    width: 282px;
     color: #970000;
     background-color: inherit;
+    float: left;
 }
 
 /* Contenido del marco */
@@ -838,5 +839,5 @@
 div.fb-div
 {
     position:relative;
-    margin-bottom: 10px;
+    padding-left: 92px;
 }

@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="varios.ascx.cs" Inherits="DAHOR.controls.varios" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="nos" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Quienes Somos</p>
     </div>
-    <uc:facebook ID="Facebook1" runat="server" />
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b> es una compañía de ámbito Nacional dedicada a los Servicios de

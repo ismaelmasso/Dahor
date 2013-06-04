@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="base_page" CodeBehind="base_page.master.cs" %>
+<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -149,6 +150,7 @@
         </div>
         <div id="footerinfo">
             <table>
+                <tr>
                     <td class="footlist">
                         <ul>
                             <li><a href="Principal.aspx?info=varios&aptdo=nos">Quienes somos</a>|</li>
@@ -168,6 +170,7 @@
                     <td class="copyright" colspan="2">
                         <p class="copyright">
                             Copyright © Dahor 2010. Todos los derechos reservados.</p>
+                        <uc:facebook ID="fbControl" runat="server"/>
                     </td>
                 </tr>
             </table>

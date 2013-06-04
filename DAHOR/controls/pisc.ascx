@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="pisc.ascx.cs" Inherits="DAHOR.controls.pisc" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="soc" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Socorristas</p>
     </div>
-        <uc:facebook ID="Facebook1" runat="server"/>
     <div class="contenido">
         <p class="intro">
             <b>GRUPO DAHOR</b>, gestiona al 100% su instalación acuática. Entre nuestros clientes se encuentran:
@@ -58,7 +56,6 @@
         <p class="titulo">
             Personal De Piscina</p>
     </div>
-        <uc:facebook ID="Facebook2" runat="server"/>
     <div class="contenido">
         <p class="intro">
             Tener el mejor equipo de Profesionales es un largo camino, que solo las mejores empresas pueden ofrecer:
@@ -111,7 +108,6 @@
         <p class="titulo">
             Monitores</p>
     </div>
-        <uc:facebook ID="Facebook3" runat="server"/>
     <div class="contenido">
         <img src="imagenes/pisc_monit_1.jpg" style="float:left; margin: 6px 10px 0px 0px;" />
         <p class="cabecera"><b>Monitores Acuaticos</b></p>        
@@ -158,7 +154,6 @@
             Mantenimientos / Averías
         </p>
     </div>
-        <uc:facebook ID="Facebook4" runat="server"/>
     <div class="contenido">
         <p class="cabecera"><b>Mantenimiento Inicial</b></p>
         <ul>
@@ -216,7 +211,6 @@
         <p class="titulo">
             Spas / Termas</p>
     </div>
-        <uc:facebook ID="Facebook5" runat="server"/>
     <div class="contenido">
         <p class="intro"><b>GRUPO DAHOR</b>, gestiona centros deportivos, centros de salud y Spas.</p>
     </div>
@@ -256,7 +250,6 @@
         <p class="titulo">
             Piscinas</p>
     </div>
-        <uc:facebook ID="Facebook6" runat="server"/>
     <div id="content">
         <table style="height: 200px;">
             <tr>

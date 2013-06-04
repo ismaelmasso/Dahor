@@ -1,11 +1,9 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="limp.ascx.cs" Inherits="DAHOR.controls.limp" %>
-<%@ Register TagPrefix="uc" TagName="facebook" Src="~/controls/facebookLike.ascx" %>
 <asp:Panel ID="com" runat="server" Visible="false">
     <div id="headbody">
         <p class="titulo">
             Comunidades</p>
     </div>
-    <uc:facebook runat="server" ID="Facebook1" />
     <div class="contenido">
         <p class="intro">
             La limpieza de los hogares de cada uno de nuestros clientes, es para <b>GRUPO DAHOR</b>,
@@ -68,7 +66,6 @@
         <p class="titulo">
             Colegios</p>
     </div>
-    <uc:facebook ID="Facebook2" runat="server" />
     <div class="contenido">
         <p class="intro">
             Limpieza, Desinfectación, Desratización, etc… son servicios que incluimos en las
@@ -126,7 +123,6 @@
         <p class="titulo">
             Oficinas / Locales</p>
     </div>
-    <uc:facebook ID="Facebook3" runat="server" />
     <div class="contenido">
         <p class="intro">
             Que nuestros clientes cuenten con la máxima garantía de limpieza y desinfección
@@ -185,7 +181,6 @@
         <p class="titulo">
             Fin De Obra</p>
     </div>
-    <uc:facebook ID="Facebook4" runat="server" />
     <div class="contenido">
         <p class="intro">
             Constructoras, Promotoras y particulares, cuentan ya con un inmejorable servicio
@@ -241,7 +236,6 @@
         <p class="titulo">
             De Altura</p>
     </div>
-    <uc:facebook ID="Facebook5" runat="server" />
     <div class="contenido">
         <p class="intro">
             Servicio especial a Edificios, Oficinas y Comunidades de Propietarios. Limpieza
@@ -274,7 +268,6 @@
         <p class="titulo">
             Fachadas</p>
     </div>
-    <uc:facebook ID="Facebook6" runat="server" />
     <div class="contenido">
         <p class="intro">
             Si Necesita Limpiar su Fachada, de Graffitis, Pintadas, Erosión o simplemente por
@@ -319,7 +312,6 @@
         <p class="titulo">
             Limpieza</p>
     </div>
-    <uc:facebook ID="Facebook7" runat="server" />
     <div id="content">
         <table style="height: 200px;">
             <tr>

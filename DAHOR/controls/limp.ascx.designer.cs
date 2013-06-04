@@ -22,15 +22,6 @@ namespace DAHOR.controls {
         protected global::System.Web.UI.WebControls.Panel com;
         
         /// <summary>
-        /// Facebook1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook1;
-        
-        /// <summary>
         /// col control.
         /// </summary>
         /// <remarks>
@@ -38,15 +29,6 @@ namespace DAHOR.controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel col;
-        
-        /// <summary>
-        /// Facebook2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook2;
         
         /// <summary>
         /// loc control.
@@ -58,15 +40,6 @@ namespace DAHOR.controls {
         protected global::System.Web.UI.WebControls.Panel loc;
         
         /// <summary>
-        /// Facebook3 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook3;
-        
-        /// <summary>
         /// fob control.
         /// </summary>
         /// <remarks>
@@ -74,15 +47,6 @@ namespace DAHOR.controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel fob;
-        
-        /// <summary>
-        /// Facebook4 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook4;
         
         /// <summary>
         /// alt control.
@@ -94,15 +58,6 @@ namespace DAHOR.controls {
         protected global::System.Web.UI.WebControls.Panel alt;
         
         /// <summary>
-        /// Facebook5 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook5;
-        
-        /// <summary>
         /// fac control.
         /// </summary>
         /// <remarks>
@@ -112,15 +67,6 @@ namespace DAHOR.controls {
         protected global::System.Web.UI.WebControls.Panel fac;
         
         /// <summary>
-        /// Facebook6 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook6;
-        
-        /// <summary>
         /// ind control.
         /// </summary>
         /// <remarks>
@@ -128,14 +74,5 @@ namespace DAHOR.controls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel ind;
-        
-        /// <summary>
-        /// Facebook7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DAHOR.controls.facebookLike Facebook7;
     }
 }
